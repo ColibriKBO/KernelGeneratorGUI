@@ -9,6 +9,8 @@ The GUI lets the user select various parameters using which the kernels are gene
 - Impact Factor(units of radius): Maximum part of the star that the detected object will cover when passing in front of the star 
 - Shift Adjustment(frames): Part of the exposure time after which the occultation begins 
 
+![Kernel Generator GUI Image](images/KernelGeneratorGUI.png?raw=true "Kernel Generator GUI")
+
 ## Cloning this repository
 ```
 git https://github.com/ColibriKBO/KernelGeneratorGUI.git
@@ -24,7 +26,7 @@ Run the instDep.sh file which will install all dependencies and create the folde
 sh instdep.sh
 ```
 
-## OR
+### OR
 
 ### Manual installation
 For manually installing the dependencies follow the following steps:
@@ -53,7 +55,7 @@ mkdir kernel_images
 ```
 
 
-## Starting the component
+## Starting the GUI
 To start the Kernel Generator GUI using the follwing command:
 ```
 pip3 fresnelModelerGUI.py
