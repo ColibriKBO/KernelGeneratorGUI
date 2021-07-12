@@ -7,7 +7,7 @@ The GUI lets the user select various parameters using which the kernels are gene
 - Object Diameter(m): Expected diameter of the object to be detected
 - Stellar Diameter(mas): Approximate diameter of the stars observed
 - Impact Factor(units of radius): Maximum part of the star that the detected object will cover when passing in front of the star 
-- Shift Adjustment(frames): Part of the exposure time after which the occultation begins 
+- Shift Adjustment(frames): Part of the exposure time after which the occultation begins \\
 Following is the image of the Graphical User Interface:
 
 ![Kernel Generator GUI Image](images/KernelGeneratorGUI.png?raw=true "Kernel Generator GUI")
